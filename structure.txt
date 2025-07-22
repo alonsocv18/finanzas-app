@@ -4,7 +4,7 @@ finanzas-app/
 │   │   ├── app/
 │   │   │   ├── dashboard/
 │   │   │   │   └── page.tsx
-│   │   │   ├── auth/
+│   │   │   ├── login/
 │   │   │   │   └── page.tsx
 │   │   │   ├── layout.tsx
 │   │   │   └── page.tsx
