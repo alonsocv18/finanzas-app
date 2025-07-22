@@ -1,0 +1,29 @@
+finanzas-app/
+├── client/                      # <-- TODO tu frontend vive aquí (Next.js)
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── dashboard/
+│   │   │   │   └── page.tsx
+│   │   │   ├── auth/
+│   │   │   │   └── page.tsx
+│   │   │   ├── layout.tsx
+│   │   │   └── page.tsx
+│   │   ├── components/
+│   │   ├── contexts/
+│   │   └── hooks/
+│   ├── next.config.js
+│   └── package.json             # package.json solo para el cliente
+│
+├── server/                      # <-- TODO tu backend vive aquí (Express.js)
+│   ├── src/
+│   │   ├── api/
+│   │   │   ├── controllers/     # Lógica de los endpoints (req, res)
+│   │   │   ├── models/          # Modelos de MongoDB (Mongoose)
+│   │   │   ├── routes/          # Definición de rutas (ej. /users, /transactions)
+│   │   │   └── services/        # Lógica de negocio
+│   │   ├── config/              # Conexión a DB, variables de entorno
+│   │   └── app.js               # Configuración principal de Express
+│   ├── server.js                # Punto de entrada para iniciar el servidor
+│   └── package.json             # package.json solo para el servidor
+│
+└── package.json                 # package.json principal (opcional, para scripts)
