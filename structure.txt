@@ -27,3 +27,9 @@ finanzas-app/
 │   └── package.json             # package.json solo para el servidor
 │
 └── package.json                 # package.json principal (opcional, para scripts)
+
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Frontend      │    │    Backend      │    │   PostgreSQL    │
+│   Next.js       │◄──►│   Node.JS       │◄──►│   Database      │
+│   (Puerto 3000) │    │   (Puerto 3001) │    │   (Puerto 5432) │
+└─────────────────┘    └─────────────────┘    └─────────────────┘

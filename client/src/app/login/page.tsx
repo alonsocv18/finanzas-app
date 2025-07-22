@@ -1,7 +1,7 @@
 import Button from '@/components/ui/Button'
 import GoogleButton from '@/components/ui/GoogleButton'
 
-export default function Example() {
+export default function login() {
   return (
     <>
       <div className="flex min-h-full flex-col justify-center px-4 sm:px-6 py-20 sm:py-12 mt-10 sm:mt-40 lg:mt-40 mx-auto w-full max-w-md rounded-xl ">
@@ -18,7 +18,7 @@ export default function Example() {
         </div>
 
         <div className="mt-6 m-2 sm:mx-auto sm:w-full sm:max-w-sm ">
-          <form action="#" method="POST" className="space-y-6">
+          <form id="login-form" action="#" method="POST" className="space-y-6">
             <div>
               <label htmlFor="email" className="block ml-1 text-lg/6 font-light text-white/40">
                 Correo
