@@ -1,9 +1,7 @@
 import React from 'react'; 
-import DashboardAside from '@/components/dashboard/DashboardAside';
+import DashboardLayout from '@/components/dashboard/DashboardLayout';
 
-function HomePage() {
-  return (
-      <DashboardAside />
-  );
+
+export default function DashboardPage() {
+  return <DashboardLayout />
 }
-export default HomePage;

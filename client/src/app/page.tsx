@@ -55,7 +55,7 @@ function MainPage() {
       <span className="sr-only">Close banner</span>
     </button>
   </div>
-</div>
+    </div>
 
   );
 }
